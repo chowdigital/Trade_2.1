@@ -64,7 +64,6 @@
     </div>
 </main>
 
-<?php include( locate_template( 'template-parts/banner.php' ) ); ?>
-<?php get_template_part( 'template-parts/banner', 'page' ); ?>
+
 
 <?php get_footer(); ?>

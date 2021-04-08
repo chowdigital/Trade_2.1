@@ -26,11 +26,32 @@ h2, h3, h4, h5, h6 {
   
   
 }
+
+
+
+
 h1 {
-  font-family: Veneer;
-  font-size:4em;
-  line-height: 1;
+
+  font-family: futura-pt, sans-serif;
+  
+  font-weight: 700;
+  
+  font-style: normal;
 }
+
+.h1-extra {
+
+
+  font-family: din-2014-narrow, sans-serif;
+
+  font-weight: 700;
+  
+  font-style: normal;
+  
+  text-transform: uppercase;
+
+}
+
 @include media-breakpoint-up(sm) { 
   h1 {
     font-size:6em;

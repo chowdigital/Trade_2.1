@@ -60,10 +60,10 @@
       <div class="menu-image-box col-12 col-lg-6" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/home/h1.jpeg'); background-repeat: no-repeat; background-position: center; background-size: cover;">
       
       </div>
-      <div class="menu-content-box col-12 col-lg-6 d-flex"  style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/copper.png'); background-repeat: no-repeat; background-position: center; background-size: cover;">
-        <div class="align-self-center">
+      <div class="col-12 col-lg-6 d-flex"  style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/copper.png'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+        <div class="align-self-center p-5">
                 <h3>It's the </h3>
-                    <h1>Free App</h1>
+                    <h1 class="h1-extra">Free App</h1>
                     <h3>for Hospitality Professionals</h3>
           </div>
       </div>
@@ -76,9 +76,9 @@
       
       </div>
       <div class="menu-content-box col-12 col-lg-6 order-2 order-lg-1 d-flex"  style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/copper.png'); background-repeat: no-repeat; background-position: center; background-size: cover;">
-        <div class="align-self-center">
+        <div class="align-self-center p-5">
                 <h3>Upgrade to </h3>
-                    <h1>VIP membership</h1>
+                <h1 class="h1-extra">VIP membership</h1>
                     <h3>for members’ club access and more</h3>
           </div>
       </div>
@@ -91,9 +91,9 @@
       
       </div>
       <div class="menu-content-box col-12 col-lg-6 d-flex"  style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/copper.png'); background-repeat: no-repeat; background-position: center; background-size: cover;">
-        <div class="align-self-center">
+        <div class="align-self-center p-5">
                 <h3>Perks and  </h3>
-                    <h1>discounts</h1>
+                <h1 class="h1-extra">discounts</h1>
                     <h3>at restaurants, bars, pubs and lots more</h3>
           </div>
       </div>
@@ -106,9 +106,9 @@
       
       </div>
       <div class="menu-content-box col-12 col-lg-6 order-2 order-lg-1 d-flex"  style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/copper.png'); background-repeat: no-repeat; background-position: center; background-size: cover;">
-        <div class="align-self-center">
+        <div class="align-self-center p-5">
                 <h3>Watch </h3>
-                    <h1>masterclasses</h1>
+                <h1 class="h1-extra">masterclasses</h1>
                     <h3>webinars and interviews with industry figures</h3>
           </div>
       </div>
@@ -121,9 +121,9 @@
       
       </div>
       <div class="menu-content-box col-12 col-lg-6 d-flex"  style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/copper.png'); background-repeat: no-repeat; background-position: center; background-size: cover;">
-        <div class="align-self-center">
+        <div class="align-self-center p-5">
                 <h3>Take part in</h3>
-                    <h1>events</h1>
+                <h1 class="h1-extra">events</h1>
                     <h3>both virtually and live.</h3>
           </div>
       </div>
@@ -137,9 +137,9 @@
       
       </div>
       <div class="menu-content-box col-12 col-lg-6 order-2 order-lg-1 d-flex"  style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/copper.png'); background-repeat: no-repeat; background-position: center; background-size: cover;">
-        <div class="align-self-center">
+        <div class="align-self-center p-5">
                 <h3>All the latest hospitality </h3>
-                    <h1>news round-ups</h1>
+                <h1 class="h1-extra">news round-ups</h1>
                     <h3>from trusted sources</h3>
           </div>
       </div>

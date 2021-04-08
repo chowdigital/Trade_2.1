@@ -20,7 +20,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: $green-base;
+    background-color: $white-base;
     //background: url('http://localhost:8888/BlackBook/wp-content/uploads/2020/08/copper.png') no-repeat 50% fixed / cover;
 }
 
@@ -164,6 +164,11 @@ background: linear-gradient(180deg, rgba(0,0,0,0.7077031496192228) 0%, rgba(0,0,
     background-color: $white-base;
     padding: 2rem;
 }
+
+.copper-border{
+    padding:8px;
+}
+// 
 //fonts
 
 // extra padding
@@ -228,9 +233,4 @@ navbar.navbar-dark .breadcrumb .nav-item .nav-link:hover, .navbar.navbar-dark .n
     padding-bottom:100%; 
     overflow:hidden; 
     position:relative
-}
-.img-cover{
-    object-fit: cover;
-    min-width: 100%;
-    min-height: 100%;
 }

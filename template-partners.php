@@ -42,29 +42,31 @@
         <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex flex-column">
      
 
-            <!--Featured image-->
-            <div class="view overlay hm-white-slight rounded z-depth-2 mb-4 thumb-wrapper">
+             <!--Featured image-->
+             <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'thumbnail' ); ?>
 
-              <?php the_post_thumbnail( 'medium-large', array( 'class'=> 'img-fluid')); ?>
-          
-                <a href="<?php echo get_permalink() ?>">
-                    <div class="mask"></div>
-                </a>
-            </div>
+<div class="view overlay hm-white-slight rounded z-depth-2 mb-4 thumb-wrapper square-img" style="background-image: url('<?php echo $url ?>'); background-repeat: no-repeat; background-position: center; background-size: cover;">
 
-            <div>
-            <h4 class="mb-3 font-weight-bold">
-                <strong><?php the_title(); ?></strong>
-            </h4>
-          
-          
-            <p class="grey-text"><?php the_excerpt(); ?></p>
-            </div>
-            <div class="mt-auto">
-            <a href="<?php echo get_permalink() ?>"><button type="button" class="btn btn-dark">Find out More </button></a>
-            </div>
-        </div>
-        <!--Grid column-->
+
+    <a href="<?php echo get_permalink() ?>">
+        <div class="mask"></div>
+    </a>
+</div>
+
+<div>
+<h4 class="mb-3 font-weight-bold">
+
+    <strong><?php the_title(); ?></strong>
+</h4>
+
+
+<p class="grey-text"><?php the_excerpt(); ?></p>
+</div>
+<div class="mt-auto">
+<a href="<?php echo get_permalink() ?>"><button type="button" class="btn btn-dark">Find out More </button></a>
+</div>
+</div>
+<!--Grid column-->
 
       <?php
       

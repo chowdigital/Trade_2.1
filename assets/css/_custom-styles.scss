@@ -223,3 +223,14 @@ navbar.navbar-dark .breadcrumb .nav-item .nav-link:hover, .navbar.navbar-dark .n
 .entry-footer{
         display:none;
     }
+
+.square-img{
+    padding-bottom:100%; 
+    overflow:hidden; 
+    position:relative
+}
+.img-cover{
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+}

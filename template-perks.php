@@ -26,7 +26,7 @@
   <div class="row wow fadeIn">
     <?php
     // The Query
-    $the_query = new WP_Query( 'cat=6&posts_per_page=24' );
+    $the_query = new WP_Query( 'cat=1&posts_per_page=24' );
     //posts_per_page=5'
 
 
@@ -43,9 +43,10 @@
      
 
             <!--Featured image-->
-            <div class="view overlay hm-white-slight rounded z-depth-2 mb-4 thumb-wrapper">
+            <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'thumbnail' ); ?>
 
-              <?php the_post_thumbnail( 'medium-large', array( 'class'=> 'img-fluid')); ?>
+            <div class="view overlay hm-white-slight rounded z-depth-2 mb-4 thumb-wrapper square-img" style="background-image: url('<?php echo $url ?>'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+           
           
                 <a href="<?php echo get_permalink() ?>">
                     <div class="mask"></div>
@@ -54,6 +55,7 @@
 
             <div>
             <h4 class="mb-3 font-weight-bold">
+        
                 <strong><?php the_title(); ?></strong>
             </h4>
           

@@ -19,7 +19,7 @@ get_header();
 </div>
 		<main id="primary" class="site-main container  pt-6 pb-6">
 		<div class="z-depth-3">
-		<div class="menu-content-box">
+		<div class="main-content-box">
 
 		<?php
 		while ( have_posts() ) :

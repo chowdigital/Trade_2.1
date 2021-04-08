@@ -39,13 +39,13 @@ body {
 }
 
 @include media-breakpoint-up(lg) {
-    .page-id-5 .navbar {
+    .page-id-197 .navbar {
         background: transparent;
         }
-     .page-id-5 .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+     .page-id-197 .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
             color: $black-base;
         }
-        .page-id-5 .navbar.navbar-dark.top-nav-collapse .navbar-nav .nav-item .nav-link {
+        .page-id-197 .navbar.navbar-dark.top-nav-collapse .navbar-nav .nav-item .nav-link {
 
             color: $white-base;
           
@@ -76,15 +76,6 @@ body {
     margin: 1em 0em;
 }
 
-
-.container-fluid {
-    padding-right: 0rem;
-    padding-left: 0rem;
-}
-.container {
-    padding-right: 0;
-    padding-left: 0;
-}
 
 
 footer {
@@ -147,6 +138,7 @@ footer {
 background: rgb(0,0,0);
 background: linear-gradient(180deg, rgba(0,0,0,0.7077031496192228) 0%, rgba(0,0,0,0) 38%);
 }
+//START 1------------------------------------------------------------------------ ------------------------------------ ------------------------------------ ------------------------------------ ------------------------------------ ------------------------------------ ------------------------------------
 
 .page-img-header{
     height: 100%;
@@ -188,15 +180,6 @@ background: linear-gradient(180deg, rgba(0,0,0,0.7077031496192228) 0%, rgba(0,0,
     min-height: 400px;
 }
 
-.menu-content-box {
-    background: url('<?php echo get_template_directory_uri(); ?>/dog.jpg') no-repeat 50% fixed / cover;
-    padding: 2rem;
-    color: $black-base;
-}
-
-.btn-80 {
-    width: 80%
-}
 // \Menu Page 
 
 //footer 
@@ -236,4 +219,7 @@ footer {
 
 navbar.navbar-dark .breadcrumb .nav-item .nav-link:hover, .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
     color: $light-green-base;
-}
+    }
+.entry-footer{
+        display:none;
+    }

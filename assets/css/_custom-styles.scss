@@ -23,7 +23,28 @@ body {
     background-color: $white-base;
     //background: url('http://localhost:8888/BlackBook/wp-content/uploads/2020/08/copper.png') no-repeat 50% fixed / cover;
 }
-
+h1{
+    font-size: 4em !important;
+    
+}
+h2{
+    font-size: 2em !important;
+    color: $green-base;
+    transform: uppercase;
+}
+h3{
+    font-size: 1.5em !important;
+    color: $black-base;
+    transform: uppercase;
+}
+.entry-header{
+    display: inline-block;
+    border-bottom: 2px solid $orange-base;
+    margin-bottom: 2.5em;
+}
+.entry-title{
+    margin: 1em 0em 0.2em !important;
+}
 // change Navbar color on scroll 
 
 .top-nav-collapse {

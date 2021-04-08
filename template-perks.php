@@ -4,7 +4,7 @@
 
 </div>
 		<main id="primary" class="site-main container pt-6 pb-6">
-		<div class="z-depth-3 copper-border" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/copper.png'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+		<div class="z-depth-3 copper-border" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/coppertile.jpg');">
     <div class="main-content-box z-depth-1">
 		<?php
 		while ( have_posts() ) :

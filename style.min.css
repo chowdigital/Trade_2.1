@@ -1515,11 +1515,11 @@ a.bg-light:hover,a.bg-light:focus,button.bg-light:hover,button.bg-light:focus{ba
 .flex-1{-webkit-box-flex:1;-ms-flex:1;flex:1}
 @font-face{font-family:'Veneer';src:url("assets/webfonts/35515C_0_0.eot");src:url("assets/webfonts/35515C_0_0.eot?#iefix") format("embedded-opentype"),url("assets/webfonts/35515C_0_0.woff2") format("woff2"),url("assets/webfonts/35515C_0_0.woff") format("woff"),url("assets/webfonts/35515C_0_0.ttf") format("truetype")}
 body,p{font-family:din-2014,sans-serif;font-weight:400;font-style:normal}
-h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{font-family:din-2014,sans-serif;font-weight:400;font-style:normal;line-height:1}
+h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{font-family:din-2014,sans-serif;font-weight:400;font-style:normal;margin:.5em 0}
 h1,.h1{font-family:futura-pt,sans-serif;font-weight:700;font-style:normal;font-size:4em}
-h2,.h2{font-weight:600;line-height:3em}
-h3,.h3{font-weight:600;line-height:2em}
-.h1-extra{font-family:din-2014-narrow,sans-serif;font-weight:700;font-style:normal;text-transform:uppercase}
+h2,.h2{font-weight:600}
+h3,.h3{font-weight:600;margin:1em 0}
+.h1-extra{font-family:din-2014-narrow,sans-serif;font-weight:600;font-style:normal}
 .blockquote{padding:.5rem 1rem;border-left:.25rem solid #eceeef}
 .blockquote.text-right{border-right:.25rem solid #eceeef;border-left:0}
 .blockquote .bq-title{margin-bottom:0;font-size:1.5rem;font-weight:400}
@@ -2674,7 +2674,10 @@ ul.stepper li.active a .label,ul.stepper li.completed a .label{font-weight:600;c
 html,body,#page,.view{width:100%;height:100%}
 body.logged-in nav{margin-top:32px}
 body{background-repeat:no-repeat;background-attachment:fixed;background-size:cover;background-color:#dee3e9}
-h1,.h1{font-size:4em !important}
+h1,.h1{font-size:2em !important}
+a,a h1,a .h1,a h3,a .h3{color:#081e24}
+.pagenav{font-size:1.5em}
+a:hover{color:#8b634b}
 h2,.h2{font-size:2em !important;color:#1b6e68;-webkit-transform:uppercase;transform:uppercase}
 h3,.h3{font-size:1.5em !important;color:#081e24;-webkit-transform:uppercase;transform:uppercase}
 .entry-header{display:inline-block;border-bottom:2px solid #e29467;margin-bottom:2.5em}
@@ -2697,8 +2700,9 @@ footer .md-form label{color:#fff}
 .book-btn{background:#e29467}
 .navbar-expand-lg .navbar-nav .nav-link{padding-right:1rem;padding-left:1rem}
 .gradient-custom{background:black;background:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0.707703)),color-stop(38%,rgba(0,0,0,0)));background:linear-gradient(180deg,rgba(0,0,0,0.707703) 0,rgba(0,0,0,0) 38%)}
-.page-img-header{height:100%}
-.home-content-box{background-color:none;width:100%;padding:2rem;color:#081e24}
+.page-img-header{height:50%}
+.home-content-box{background-color:none;width:100%;padding:2rem;color:#dee3e9 !important}
+.home-content-box h3,.home-content-box .h3{color:#dee3e9 !important}
 .main-content-box{background-color:#dee3e9;padding:2rem}
 .copper-border{padding:8px}
 .pt-6{margin-top:7rem}
@@ -3188,7 +3192,6 @@ h1,.h1{font-size:6em}
 .modal .modal-dialog.modal-top-right{top:10px;right:10px}
 .modal .modal-dialog.modal-bottom-left{bottom:10px;left:10px}
 .modal .modal-dialog.modal-bottom-right{right:10px;bottom:10px}
-.page-img-header{height:50%}
 .text-footer-responsive{text-align:right}
 }@media(min-width:992px){.container,.container-sm,.container-md,.container-lg{max-width:960px}
 .col-lg{-webkit-box-flex:1;-ms-flex:1 0 0;flex:1 0 0}
@@ -3421,8 +3424,9 @@ h1,.h1{font-size:6em}
 .modal .modal-full-height .modal-content{width:100%}
 .modal .modal-full-height.modal-lg{width:90%;max-width:90%}
 .modal .modal-side{position:absolute;right:10px;bottom:10px;width:400px;margin:0}
+h1,.h1{font-size:4em !important}
 .page-id-197 .navbar{background:transparent}
-.page-id-197 .navbar.navbar-dark .navbar-nav .nav-item .nav-link{color:#081e24}
+.page-id-197 .navbar.navbar-dark .navbar-nav .nav-item .nav-link{color:#dee3e9}
 .page-id-197 .navbar.navbar-dark.top-nav-collapse .navbar-nav .nav-item .nav-link{color:#dee3e9}
 .white-content-box{width:50%}
 }@media(min-width:992px) and (min-width:992px){.modal .modal-full-height.modal-lg{width:800px;max-width:800px}

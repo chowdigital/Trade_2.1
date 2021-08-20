@@ -36,8 +36,9 @@
 				<div class="col-12 col-md-4">
        
 				
-						<a href="https://facebook.com/TRADESoho/"><i class="fab fa-facebook-f fa-lg"></i></a>&nbsp&nbsp&nbsp<a href="https://twitter.com/tradesoho"><i class="fab fa-twitter fa-lg"></i></a>
-						&nbsp&nbsp&nbsp<a href="https://www.instagram.com/tradesoho"><i class="fab fa-instagram fa-lg"></i></a>
+						<a href="https://www.facebook.com/TRADEHospitality"><i class="fab fa-facebook-f fa-lg"></i></a>
+						&nbsp&nbsp&nbsp<a href="https://twitter.com/Tradehosp"><i class="fab fa-twitter fa-lg"></i></a>
+						&nbsp&nbsp&nbsp<a href="https://www.instagram.com/tradehospitality/"><i class="fab fa-instagram fa-lg"></i></a>
         
 
             <div class="row pt-3 pb-3">

@@ -1,4 +1,4 @@
-<?php /* Template Name: Partners*/ get_header(); ?>
+<?php /* Template Name: Partners 4*/ get_header(); ?>
 <div class="page-img-header d-flex z-depth-3" style="background-image: url(<?php the_post_thumbnail_url(); ?>); background-repeat: no-repeat; background-position: center; background-size: cover;">
 
 
@@ -26,7 +26,7 @@
   <div class="row wow fadeIn">
     <?php
     // The Query
-    $the_query = new WP_Query( 'cat=6&posts_per_page=24' );
+    $the_query = new WP_Query( 'cat=4&posts_per_page=24' );
     //posts_per_page=5'
 
 

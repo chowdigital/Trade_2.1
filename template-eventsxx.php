@@ -1,4 +1,4 @@
-<?php /* Template Name: Events*/ get_header(); ?>
+<?php /* Template Name: Events 22 */ get_header(); ?>
 
   <div class="page-img-header d-flex" style="background-image: url(<?php the_post_thumbnail_url(); ?>); background-repeat: no-repeat; background-position: center; background-size: cover;">
 
